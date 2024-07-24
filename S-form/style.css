@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(41, 44, 42);
+}
+.container {
+  max-width: 600px;
+  margin: 35px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: rgb(8, 8, 8);
+  filter: drop-shadow(3px 3px 55px rgb(97, 79, 79));
+  background: rgb(237, 237, 237, 0.1);
+  backdrop-filter: blur(10px);
+}
+h1 {
+  text-align: center;
+  color: rgb(32, 226, 14);
+}
+.form-group label {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: aqua;
+}
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+.btn {
+  background-color: rgb(19, 223, 36);
+  padding: 15px;
+  width: 45%;
+  margin-left: 25%;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-top: 5px;
+  color: #0b0c0c;
+}
+.container-fluid th {
+  background-color: rgb(228, 224, 10);
+}
+
+.savedDetails {
+  background-color: rgb(231, 238, 231);
+  color: #0c0c0c;
+}

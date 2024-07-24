@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STUDENT FORM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>STUDENT FORM</h1>
+      <form id="studentForm">
+        <div class="form-group">
+          <label for="name">Name</label>
+
+          <input
+            type="text"
+            id="name"
+            placeholder="enter your name"
+            name="name"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="age">Age</label>
+
+          <input type="number" id="age" placeholder="enter your age" />
+        </div>
+
+        <div class="form-group">
+          <label for="gender">Gender</label>
+
+          <select>
+            <option id="gender">Male</option>
+            <option id="gender">Female</option>
+            <option id="gender">Others</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="course">Course</label>
+
+          <select>
+            <option id="course">Javascript</option>
+            <option id="course">Python</option>
+            <option id="course">DataScience</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+
+          <input type="text" id="email" placeholder="enter your email" />
+        </div>
+        <button class="btn" type="button" onclick="saveStudent()">Save</button>
+      </form>
+    </div>
+    <div class="container-fluid">
+      <table id="studentTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Course</th>
+            <th>Email</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody class="savedDetails"></tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
